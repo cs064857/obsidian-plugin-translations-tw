@@ -11,5 +11,18 @@
         "created_at": "2026-06-12T14:00:11.949Z",
         "updated_at": "2026-06-12T14:00:11.949Z",
         "type": "plugin"
+    },
+    {
+        "id": "Z_GIrwtL8bw2oM9ze1qrcsiOEi4xCubT",
+        "plugin": "obsidian-local-images-plus",
+        "language": "zh-tw",
+        "version": "0.16.4",
+        "supported_versions": "0.16.4",
+        "title": "Local Images Plus",
+        "description": "Local Images Plus Localization & Tweaks",
+        "hash": "33649af833649af833649af833649af8",
+        "created_at": "2026-06-12T15:43:45.572Z",
+        "updated_at": "2026-06-12T15:43:45.572Z",
+        "type": "plugin"
     }
 ]
