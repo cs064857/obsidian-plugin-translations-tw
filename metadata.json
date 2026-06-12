@@ -24,5 +24,70 @@
         "created_at": "2026-06-12T15:43:45.572Z",
         "updated_at": "2026-06-12T15:43:45.572Z",
         "type": "plugin"
+    },
+    {
+        "id": "iAl8xbIZuWfuxqXZ3IE089qZqgC3Fr9z",
+        "plugin": "obsidian-advanced-uri",
+        "type": "plugin",
+        "language": "zh-tw",
+        "version": "1.0.0",
+        "supported_versions": "1.44.2",
+        "title": "Advanced URI",
+        "description": "Advanced URI Localization & Tweaks",
+        "hash": "5217668a5217668a5217668a5217668a",
+        "created_at": "2026-06-12T15:44:01.463Z",
+        "updated_at": "2026-06-12T15:44:01.463Z"
+    },
+    {
+        "id": "LQdnt3593-1nE8YZaX3H9f-CHwoZdoGC",
+        "plugin": "any-block",
+        "type": "plugin",
+        "language": "zh-tw",
+        "version": "1.0.0",
+        "supported_versions": "3.1.8",
+        "title": "AnyBlock",
+        "description": "AnyBlock Localization & Tweaks",
+        "hash": "1d0b3c811d0b3c811d0b3c811d0b3c81",
+        "created_at": "2026-06-12T15:44:01.464Z",
+        "updated_at": "2026-06-12T15:44:01.464Z"
+    },
+    {
+        "id": "nwsaXQwOqtPmPldm8CGHX-fqBGpPGAlN",
+        "plugin": "obsidian-icon-folder",
+        "type": "plugin",
+        "language": "zh-tw",
+        "version": "1.0.0",
+        "supported_versions": "2.14.7",
+        "title": "Iconize",
+        "description": "Iconize Localization & Tweaks",
+        "hash": "643395ca643395ca643395ca643395ca",
+        "created_at": "2026-06-12T15:44:01.469Z",
+        "updated_at": "2026-06-12T15:44:01.469Z"
+    },
+    {
+        "id": "Y3CxKR4J6snBpwvb9YrWvTzzfdl1cqh4",
+        "plugin": "table-editor-obsidian",
+        "type": "plugin",
+        "language": "zh-tw",
+        "version": "1.0.0",
+        "supported_versions": "0.23.2",
+        "title": "Advanced Tables",
+        "description": "Advanced Tables Localization & Tweaks",
+        "hash": "7dec503b7dec503b7dec503b7dec503b",
+        "created_at": "2026-06-12T15:44:01.463Z",
+        "updated_at": "2026-06-12T15:44:01.463Z"
+    },
+    {
+        "id": "Qggw1QaiBDIg8moeLkRx112R-QfBvQBw",
+        "plugin": "media-extended",
+        "type": "plugin",
+        "language": "zh-tw",
+        "version": "1.0.0",
+        "supported_versions": "4.2.7",
+        "title": "Media Extended",
+        "description": "Media Extended Localization & Tweaks",
+        "hash": "2eb12a532eb12a532eb12a532eb12a53",
+        "created_at": "2026-06-12T15:44:01.469Z",
+        "updated_at": "2026-06-12T15:44:01.469Z"
     }
 ]
