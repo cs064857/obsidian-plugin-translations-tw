@@ -1,0 +1,15 @@
+[
+    {
+        "id": "7sVT_4bDkJyjJORgcdvu4yHEsEPBnYQB",
+        "plugin": "obsidian-advanced-uri",
+        "language": "zh-tw",
+        "version": "1.44.2",
+        "supported_versions": "1.44.2",
+        "title": "Advanced URI",
+        "description": "Advanced URI Localization & Tweaks",
+        "hash": "362f1073362f1073362f1073362f1073",
+        "created_at": "2026-06-12T14:00:11.949Z",
+        "updated_at": "2026-06-12T14:00:11.949Z",
+        "type": "plugin"
+    }
+]
