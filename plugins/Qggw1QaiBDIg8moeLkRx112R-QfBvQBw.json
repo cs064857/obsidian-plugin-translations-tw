@@ -1,0 +1,2428 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "media-extended",
+        "version": "1.0.0",
+        "title": "Media Extended",
+        "description": "Media Extended Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "4.2.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "This tab has been muted",
+                    "target": "此分頁已靜音"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "This tab is playing media",
+                    "target": "此分頁正在播放媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " · ",
+                    "target": " · "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " — ",
+                    "target": " — "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "This will relaunch obsidian without saving, continue?",
+                    "target": "這將在不儲存的情況下重新啟動 Obsidian，是否繼續？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`persistent` option is only available in Deno",
+                    "target": "`persistent` 選項僅在 Deno 中可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in notification handler:",
+                    "target": "通知處理常式中發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Handshake failed with unexpected error",
+                    "target": "交握失敗，發生未預期的錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to send handshake response",
+                    "target": "無法傳送交握回應"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in detectVolumeSetter:",
+                    "target": "detectVolumeSetter 發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write to plugin log file",
+                    "target": "無法寫入外掛程式記錄檔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to flush plugin log file on dispose",
+                    "target": "釋放時無法排空外掛程式記錄檔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get EmptyView",
+                    "target": "無法取得 EmptyView"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Toast reported error: {message}",
+                    "target": "Toast 回報錯誤：{message}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open Google Drive browser",
+                    "target": "無法開啟 Google 雲端硬碟瀏覽器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[google-drive] Refresh token failed",
+                    "target": "[google-drive] 重新整理權杖失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[google-drive] Failed to revoke refresh token",
+                    "target": "[google-drive] 無法撤銷重新整理權杖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "note-meta effect body threw",
+                    "target": "note-meta effect body 擲出異常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get session: {error}",
+                    "target": "無法取得工作階段：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import media",
+                    "target": "匯入媒體失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to send handshake ACK",
+                    "target": "傳送交握 ACK 失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to post handshake init",
+                    "target": "發送交握初始化失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to send handshake init, will retry",
+                    "target": "傳送交握初始化失敗，將重新嘗試"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Please add a BigInt polyfill.",
+                    "target": "請新增 BigInt polyfill。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Text extraction failed",
+                    "target": "文字擷取失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save screenshot",
+                    "target": "儲存螢幕截圖失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to set screenshot as cover",
+                    "target": "設定螢幕截圖為封面失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy screenshot",
+                    "target": "複製螢幕截圖失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "downloadCaption failed",
+                    "target": "downloadCaption 失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load local tracks",
+                    "target": "無法載入本機軌道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jump to timestamp error",
+                    "target": "跳轉至時間戳記錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "seek to beginning of the clip error",
+                    "target": "跳轉至剪輯片段起點錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "reset time range error",
+                    "target": "重設時間範圍錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "media error",
+                    "target": "媒體錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 須為 0 至 125 之間的正整數，不支援強制設定高於 125 fps 的影格率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to seek webview media",
+                    "target": "無法跳轉 Webview 媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open linked media at time",
+                    "target": "無法於指定時間開啟連結的媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Frame step command failed",
+                    "target": "影格步進指令失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to increase speed",
+                    "target": "無法提高速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrease speed",
+                    "target": "無法降低速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create a new BroadcastChannel, multi-tab state changes will not be available",
+                    "target": "無法建立新的 BroadcastChannel，將無法使用多分頁狀態同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting user data:",
+                    "target": "取得使用者資料時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto refresh tick failed with error. This is likely a transient error.",
+                    "target": "自動重新整理週期執行失敗，這可能是暫時性的錯誤。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to download YouTube track via webview",
+                    "target": "無法透過 webview 下載 YouTube 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to download Coursera track via webview",
+                    "target": "無法透過 webview 下載 Coursera 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to download Bilibili track via webview",
+                    "target": "無法透過 webview 下載 Bilibili 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open electron file picker",
+                    "target": "無法開啟 Electron 檔案選取器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error connecting webview media service from {trigger}",
+                    "target": "從 {trigger} 連線至 webview 媒體服務時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot connect: service is disposed",
+                    "target": "無法連線：服務已釋放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onOpenFile error in openFile, fallback to default",
+                    "target": "openFile 中的 onOpenFile 發生錯誤，已回復至預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "failed to insert timestamp",
+                    "target": "無法插入時間戳記"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected folder",
+                    "target": "未預期的資料夾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to show password manager: {error}",
+                    "target": "無法顯示密碼管理員：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh session: {error}",
+                    "target": "無法重新整理工作階段：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sign out: {error}",
+                    "target": "無法登出：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get media file path",
+                    "target": "無法取得媒體檔案路徑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to batch fetch images from cache",
+                    "target": "無法從快取批次取得圖片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get image from cache",
+                    "target": "無法從快取取得圖片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to set image in cache",
+                    "target": "無法將圖片寫入快取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete image from cache",
+                    "target": "無法從快取中刪除圖片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear image cache",
+                    "target": "無法清除圖片快取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get total cache size",
+                    "target": "無法取得快取總大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset image cache database",
+                    "target": "無法重設圖片快取資料庫"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to evict cache entries",
+                    "target": "無法清除快取項目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick error in editor, fallback to default",
+                    "target": "編輯器中的 onInternalLinkClick 發生錯誤，將退回使用預設行為"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onExternalLinkClick error in editor, fallback to default",
+                    "target": "編輯器中的 onExternalLinkClick 發生錯誤，將退回使用預設行為"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to patch preview click",
+                    "target": "無法修補預覽點擊事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick (from external) error, fallback to default",
+                    "target": "onInternalLinkClick（來自外部）發生錯誤，將退回使用預設行為"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onExternalLinkClick error, fallback to default",
+                    "target": "onExternalLinkClick 發生錯誤，將退回使用預設行為"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick error, fallback to default",
+                    "target": "onInternalLinkClick 發生錯誤，回復至預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "open external link error",
+                    "target": "開啟外部連結時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load media history",
+                    "target": "無法載入媒體歷程記錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist media history",
+                    "target": "無法儲存媒體歷程記錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Retrying failed fetch. Error:",
+                    "target": "正在重試失敗的擷取。錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building AVC Decoder Configuration Record:",
+                    "target": "建立 AVC 解碼器設定記錄時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deserializing AVC Decoder Configuration Record:",
+                    "target": "反序列化 AVC 解碼器設定記錄時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing AVC SPS:",
+                    "target": "解析 AVC SPS 時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing HEVC SPS:",
+                    "target": "解析 HEVC SPS 時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building HEVC Decoder Configuration Record:",
+                    "target": "建立 HEVC 解碼器設定記錄時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Due to an error, only color data will be decoded.",
+                    "target": "由於發生錯誤，將僅解碼色彩資料。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during decodability check:",
+                    "target": "檢查可解碼性時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Due to an error, only color data will be encoded.",
+                    "target": "由於發生錯誤，將僅編碼色彩資料。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shader compile error:",
+                    "target": "著色器編譯錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid conversion",
+                    "target": "無效的轉換"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get input",
+                    "target": "無法取得輸入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to auto-import media file:",
+                    "target": "自動匯入媒體檔案失敗："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update boolean property",
+                    "target": "更新布林屬性失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image loading failed",
+                    "target": "圖片載入失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "upsertMediaNote failed for {notePath}: {error}",
+                    "target": "對 {notePath} 執行 upsertMediaNote 失敗：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy blob to clipboard using DOM clipboard",
+                    "target": "無法使用 DOM 剪貼簿將 Blob 複製到剪貼簿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy image to clipboard using electron clipboard",
+                    "target": "無法使用 Electron 剪貼簿將圖片複製到剪貼簿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clip screenshot: blob is null",
+                    "target": "擷取螢幕截圖失敗：Blob 為空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot save screenshot: no media is opened",
+                    "target": "無法儲存螢幕截圖：未開啟任何媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write settings to disk",
+                    "target": "無法將設定寫入磁碟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load plugin data, falling back to defaults",
+                    "target": "無法載入外掛程式資料，將回復為預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load settings on init",
+                    "target": "初始化時載入設定失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to find related media from fs for",
+                    "target": "無法在檔案系統中找到相關媒體："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot open hosted media",
+                    "target": "無法開啟託管媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import password manager data",
+                    "target": "無法匯入密碼管理員資料"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open plugin log file",
+                    "target": "無法開啟外掛程式記錄檔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open log folder",
+                    "target": "無法開啟記錄檔資料夾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open log file",
+                    "target": "無法開啟記錄檔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Transcription flow failed: {error}",
+                    "target": "轉錄流程失敗：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error patching webviewer",
+                    "target": "修補 webviewer 時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error disposing webview media service",
+                    "target": "釋放 webview 媒體服務時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying hash props to webview media service",
+                    "target": "套用雜湊屬性至 webview 媒體服務時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get web contents, skipping click-away fix",
+                    "target": "無法取得網頁內容，跳過點擊他處關閉的修正"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to dispose container",
+                    "target": "無法釋放容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload media library views",
+                    "target": "無法重新載入媒體庫檢視"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload markdown views",
+                    "target": "重新載入 Markdown 檢視失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error pasting track",
+                    "target": "貼上軌道時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing PortChannelResponder",
+                    "target": "正在初始化 PortChannelResponder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Received handshake init",
+                    "target": "已收到交握初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pending connection resolved successfully",
+                    "target": "待處理的連線已成功解決"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Handshake completed successfully",
+                    "target": "交握已成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "PortChannelResponder disposed",
+                    "target": "PortChannelResponder 已釋放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "LogTape loggers are configured.  Note that LogTape itself uses the meta logger, which has category {metaLoggerCategory}.  The meta logger is used to log internal diagnostics such as sink exceptions.  It's recommended to configure the meta logger with a separate sink so that you can easily notice if logging itself fails or is misconfigured.  To turn off this message, configure the meta logger with higher log levels than {dismissLevel}.  See also <https://logtape.org/manual/categories#meta-logger>.",
+                    "target": "LogTape 記錄器已設定。請注意，LogTape 本身使用 meta 記錄器，其類別為 {metaLoggerCategory}。meta 記錄器用於記錄內部診斷資訊（例如接收端異常）。建議為 meta 記錄器設定獨立的接收端（sink），以便在記錄功能本身失敗或設定錯誤時能輕鬆察覺。若要關閉此訊息，請將 meta 記錄器設定為高於 {dismissLevel} 的記錄層級。另請參閱 <https://logtape.org/manual/categories#meta-logger>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initiating port channel",
+                    "target": "正在啟動連接埠通道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Received valid handshake response",
+                    "target": "已收到有效的交握回應"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Extracting text from screenshot to clipboard",
+                    "target": "正在提取螢幕截圖中的文字至剪貼簿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Extracted text copied to clipboard, length={contentLength}",
+                    "target": "已將提取的文字複製至剪貼簿，長度：{contentLength}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No text found in screenshot",
+                    "target": "螢幕截圖中未偵測到任何文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Saving screenshot",
+                    "target": "正在儲存螢幕截圖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Screenshot saved at {filePath}",
+                    "target": "螢幕截圖已儲存至 {filePath}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting screenshot as cover",
+                    "target": "正在將螢幕截圖設為封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cover set from screenshot at {filePath}",
+                    "target": "已將位於 {filePath} 的螢幕截圖設為封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Copying screenshot to clipboard",
+                    "target": "正在將螢幕截圖複製至剪貼簿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "media-view debug logging attached",
+                    "target": "已啟用 media-view 偵錯記錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "media-view debug logging detached",
+                    "target": "已停用 media-view 偵錯記錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Task {taskId} deleted",
+                    "target": "任務 {taskId} 已刪除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Extracting audio for transcription",
+                    "target": "正在提取音訊以進行轉錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription submitted, taskId={taskId}",
+                    "target": "轉錄已提交，taskId={taskId}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "YouTube track downloaded and saved",
+                    "target": "YouTube 音軌已下載並儲存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "YouTube track downloaded via webview and saved",
+                    "target": "已透過 webview 下載並儲存 YouTube 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Coursera track downloaded via webview and saved",
+                    "target": "已透過 webview 下載並儲存 Coursera 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Bilibili track downloaded via webview and saved",
+                    "target": "已透過 webview 下載並儲存 Bilibili 音軌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Bidirectional connection established",
+                    "target": "已建立雙向連線"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Connected to webview media service from {trigger}",
+                    "target": "已從 {trigger} 連線至 webview 媒體服務"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebviewMediaService initialized successfully",
+                    "target": "WebviewMediaService 已成功初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Clearing media clip",
+                    "target": "正在清除媒體片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Media clip cleared successfully",
+                    "target": "已成功清除媒體片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Connection established successfully",
+                    "target": "已成功建立連線"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Controller changed (SPA navigation)",
+                    "target": "控制器已變更 (SPA 導覽)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Disconnecting webview media service",
+                    "target": "正在中斷 Webview 媒體服務的連線"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Disposing WebviewMediaService",
+                    "target": "正在釋放 WebviewMediaService"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebviewMediaService disposed successfully",
+                    "target": "已成功釋放 WebviewMediaService"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Playback rate set",
+                    "target": "已設定播放速率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Screenshot captured successfully",
+                    "target": "已成功擷取螢幕畫面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Metadata retrieved successfully",
+                    "target": "已成功取得中介資料"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Timestamp taken successfully",
+                    "target": "已成功擷取時間戳記"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Seek completed",
+                    "target": "定位完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Hash props applied successfully",
+                    "target": "Hash 屬性已成功套用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting media clip",
+                    "target": "正在設定媒體片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Media clip set successfully",
+                    "target": "媒體片段設定成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Playback paused, will resume on disposal",
+                    "target": "播放已暫停，將於釋放時恢復"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "recorder not found, skip patching for recorder note",
+                    "target": "找不到錄製器，跳過錄製器筆記的修補"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Clearing legacy image cache",
+                    "target": "正在清除舊版圖片快取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Creating image cache object store",
+                    "target": "正在建立圖片快取物件存放區"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Clearing all entries from image cache",
+                    "target": "正在清除圖片快取中的所有項目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Image cache cleared",
+                    "target": "已清除圖片快取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Resetting image cache database",
+                    "target": "正在重設圖片快取資料庫"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Image cache database deleted",
+                    "target": "已刪除圖片快取資料庫"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Evicted LRU cache entries",
+                    "target": "已清除 LRU 快取項目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting module installation",
+                    "target": "正在開始安裝模組"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting manual module installation from file",
+                    "target": "正在開始從檔案手動安裝模組"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cleared media history",
+                    "target": "已清除媒體歷程記錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Error when probing encoder support. Falling back to rerender path.",
+                    "target": "偵測編碼器支援時發生錯誤。將退回至重新渲染路徑。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "MediaLibraryView initialized",
+                    "target": "MediaLibraryView 已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Importing dropped media",
+                    "target": "正在匯入拖曳的媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Resetting view to default order",
+                    "target": "重設檢視為預設順序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Toggling boolean property",
+                    "target": "切換布林屬性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Column order changed",
+                    "target": "欄位順序已變更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Column sizes changed",
+                    "target": "欄位大小已變更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating order config",
+                    "target": "正在更新順序設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating column config",
+                    "target": "正在更新欄位設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating hide cover config",
+                    "target": "正在更新隱藏封面設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating hide actions config",
+                    "target": "正在更新隱藏操作設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Data updated",
+                    "target": "資料已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Opening media note",
+                    "target": "正在開啟媒體筆記"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Opening media",
+                    "target": "正在開啟媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Opening metadata editor",
+                    "target": "正在開啟詮釋資料編輯器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Upserting media note for {mediaType} media ({mediaId})",
+                    "target": "正在更新或新增 {mediaType} 媒體 ({mediaId}) 的媒體筆記"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "tryOpenWithMediaHash: opening media",
+                    "target": "tryOpenWithMediaHash: 正在開啟媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "mx-open dispatching to media handler",
+                    "target": "mx-open 正在分派至媒體處理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pathname protocol dispatching to media handler",
+                    "target": "路徑名稱協定正在分派至媒體處理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Falling back to electron clipboard to copy image",
+                    "target": "轉為使用 Electron 剪貼簿以複製圖片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Image clip saved",
+                    "target": "圖片剪輯已儲存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Screenshot copied to clipboard",
+                    "target": "螢幕截圖已複製到剪貼簿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Screenshot saved to vault at {filePath}",
+                    "target": "螢幕截圖已儲存至位於 {filePath} 的儲存庫"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Screenshot file persisted at {filePath}",
+                    "target": "螢幕截圖檔案已儲存於 {filePath}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings were migrated, persisting migrated data",
+                    "target": "設定已完成遷移，正在儲存遷移後的資料"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No existing settings data found, using defaults",
+                    "target": "未找到現有的設定資料，將使用預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Migrating settings from version {staleVersion} to {currentVersion}",
+                    "target": "正在將設定從版本 {staleVersion} 遷移至 {currentVersion}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings migration completed successfully",
+                    "target": "設定遷移已成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings loaded successfully",
+                    "target": "設定已成功載入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Importing transcript content",
+                    "target": "正在匯入逐字稿內容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting transcription flow",
+                    "target": "正在啟動轉寫流程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Patching WebviewerView for media service integration",
+                    "target": "正在修補 WebviewerView 以進行媒體服務整合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Webview media service loaded successfully",
+                    "target": "Webview 媒體服務已成功載入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Webview media service deleted",
+                    "target": "Webview 媒體服務已刪除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Webview loader disposables disposed",
+                    "target": "Webview 載入器可釋放資源已釋放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Loaded webview media service for existing views",
+                    "target": "已為現有檢視載入 Webview 媒體服務"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unloaded webview media service from all views",
+                    "target": "已從所有檢視卸載 Webview 媒體服務"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Webviewer patch applied successfully",
+                    "target": "Webviewer 修正檔已成功套用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Reloaded media library bases views",
+                    "target": "已重新載入媒體庫基礎檢視"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Reloaded markdown views",
+                    "target": "已重新載入 Markdown 檢視"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Hello from Media Extended",
+                    "target": "來自 Media Extended 的問候"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "requesting user gesture",
+                    "target": "正在請求使用者手勢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Connection closed, reconnecting...",
+                    "target": "連線已關閉，正在重新連線..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error in heartbeat callback",
+                    "target": "心跳回呼發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error closing connection",
+                    "target": "關閉連線時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error waiting for auth on connect",
+                    "target": "連線時等待驗證發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "starting default worker",
+                    "target": "正在啟動預設 Worker"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "worker error",
+                    "target": "Worker 錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "terminating worker",
+                    "target": "正在終止 Worker"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error fetching access token from callback",
+                    "target": "從回呼獲取存取權杖時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: acquire lock",
+                    "target": "@supabase/gotrue-js: navigatorLock: 獲取鎖定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock acquire timed out",
+                    "target": "@supabase/gotrue-js: navigatorLock 獲取鎖定逾時"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: acquired",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已獲取鎖定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: released",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已釋放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: not immediately available",
+                    "target": "@supabase/gotrue-js: navigatorLock: 無法立即使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: Navigator LockManager state",
+                    "target": "@supabase/gotrue-js: Navigator LockManager 狀態"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: acquire timeout, recovering by stealing lock",
+                    "target": "@supabase/gotrue-js: navigatorLock: 獲取逾時，正在透過搶佔鎖定進行復原"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: recovered (stolen)",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已復原 (已搶佔)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: released (stolen)",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已釋放 (已搶佔)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Auto-imported media file:",
+                    "target": "自動匯入的媒體檔案："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Google Drive",
+                    "target": "Google 雲端硬碟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The `smooth` scroll behavior is not fully supported with dynamic size.",
+                    "target": "動態尺寸不完全支援 `smooth` 捲動行為。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get offset for index:",
+                    "target": "無法取得索引的偏移量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for hash fields",
+                    "target": "雜湊欄位備用解析失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for fm control",
+                    "target": "fm 控制項備用解析失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for fm metadata",
+                    "target": "fm 中繼資料備用解析失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Rejecting handshake: no response target",
+                    "target": "拒絕交握：無回應目標"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Pending connection failed",
+                    "target": "待處理的連線失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "polyfill for input cancel event only works on focused windows, fallback to timeout",
+                    "target": "輸入取消事件的 Polyfill 僅適用於已聚焦的視窗，將改用逾時機制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "input cancel event timeout, dispatch cancel event",
+                    "target": "輸入取消事件逾時，分派取消事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No pending OAuth request",
+                    "target": "沒有待處理的 OAuth 請求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "OAuth state mismatch, ignoring callback",
+                    "target": "OAuth 狀態不符，忽略回呼"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[google-drive] Refresh token is invalid:",
+                    "target": "[google-drive] 重新整理權杖無效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Signal already aborted before starting",
+                    "target": "訊號在啟動前已中止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Abort signal received",
+                    "target": "已收到中止訊號"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Received handshake response without port",
+                    "target": "收到的交握回應中未包含連接埠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Retry loop aborted",
+                    "target": "重試迴圈已中止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Frame id not available, skipping user gesture request",
+                    "target": "無法取得框架 ID，跳過使用者手勢請求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to extract metadata",
+                    "target": "擷取中介資料失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to deserialize media view state",
+                    "target": "反序列化媒體檢視狀態失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Text extraction unauthorized, prompting login",
+                    "target": "文字擷取未授權，正在提示登入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Text extraction blocked by CORS",
+                    "target": "文字擷取已被 CORS 阻擋"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Save screenshot blocked by CORS",
+                    "target": "儲存螢幕截圖已被 CORS 阻擋"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Set as cover blocked by CORS",
+                    "target": "設為封面已被 CORS 阻擋"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copy screenshot blocked by CORS",
+                    "target": "複製螢幕截圖已被 CORS 阻擋"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "loadFile rejected: not a media file",
+                    "target": "loadFile 被拒絕：非媒體檔案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Path occupied by non-file, cannot upsert at {path}",
+                    "target": "路徑已被非檔案佔用，無法在 {path} 新增或更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "editor:open-search command not found, cannot patch obsidian search command",
+                    "target": "找不到 editor:open-search 指令，無法修補 Obsidian 的搜尋指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Connection timed out, reconnecting...",
+                    "target": "連線逾時，正在重新連線..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error parsing message:",
+                    "target": "解析訊息時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Realtime send() is automatically falling back to REST API. This behavior will be deprecated in the future. Please use httpSend() explicitly for REST delivery.",
+                    "target": "Realtime send() 已自動降級使用 REST API。此行為在未來將被棄用。請明確使用 httpSend() 進行 REST 傳送。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WebCrypto API is not supported. Code challenge method will default to use plain instead of sha256.",
+                    "target": "不支援 WebCrypto API。Code challenge 方法將預設使用 plain 而非 sha256。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Using the user object as returned from supabase.auth.getSession() or from some supabase.auth.onAuthStateChange() events could be insecure! This value comes directly from the storage medium (usually cookies on the server) and may not be authentic. Use supabase.auth.getUser() instead which authenticates the data by contacting the Supabase Auth server.",
+                    "target": "使用自 supabase.auth.getSession() 或某些 supabase.auth.onAuthStateChange() 事件傳回的 user 物件可能不安全！此值直接來自儲存媒介（通常是伺服器上的 Cookie），可能並非真實憑證。請改用 supabase.auth.getUser()，它會透過與 Supabase Auth 伺服器通訊來驗證資料。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Error when querying Navigator LockManager state",
+                    "target": "@supabase/gotrue-js: 查詢 Navigator LockManager 狀態時發生錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Navigator LockManager returned a null lock when using #request without ifAvailable set to true, it appears this browser is not following the LockManager spec https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request",
+                    "target": "@supabase/gotrue-js: 在未使用 ifAvailable 設為 true 的情況下使用 #request 時，Navigator LockManager 回傳了 null 鎖定，此瀏覽器似乎未遵循 LockManager 規範 https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Navigator LockManager returned null lock even with steal: true",
+                    "target": "@supabase/gotrue-js: 即使設定 steal: true，Navigator LockManager 仍回傳 null 鎖定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Session as retrieved from URL was issued over 120s ago, URL could be stale",
+                    "target": "@supabase/gotrue-js: 從 URL 取得的工作階段已在 120 秒前簽發，URL 可能已過期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Session as retrieved from URL was issued in the future? Check the device clock for skew",
+                    "target": "@supabase/gotrue-js: 從 URL 取得的工作階段是在未來簽發的？請檢查裝置時鐘是否偏差"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to set initial Realtime auth token:",
+                    "target": "無法設定初始 Realtime 驗證權杖："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️  Node.js 18 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 20 or later. For more information, visit: https://github.com/orgs/supabase/discussions/37217",
+                    "target": "⚠️  Node.js 18 及以下版本已棄用，未來的 @supabase/supabase-js 版本將不再支援。請升級至 Node.js 20 或更高版本。如需更多資訊，請造訪：https://github.com/orgs/supabase/discussions/37217"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to populate media note metadata before subtitle download, proceeding without it",
+                    "target": "在下載字幕前無法填入媒體筆記中繼資料，將在缺少該資料的情況下繼續執行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Auth callback received but no pending OAuth",
+                    "target": "已收到驗證回呼，但沒有等待中的 OAuth"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid YouTube clipping",
+                    "target": "無效的 YouTube 剪輯"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to decode URI, fallback to original: {link}",
+                    "target": "無法解碼 URI，已回復至原始內容：{link}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Rejected manual install with unexpected filename",
+                    "target": "檔名不符合預期，已拒絕手動安裝"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Skipping media history persist — initial load did not succeed",
+                    "target": "略過媒體歷程紀錄持久化 — 初始載入未成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list: multiple edits are not currently supported. Only using first edit.",
+                    "target": "不支援的編輯清單：目前不支援多重編輯。僅使用首次編輯。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list entry: media rate must be 1.",
+                    "target": "不支援的編輯清單項目：媒體速率必須為 1。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported PCM format.",
+                    "target": "不支援的 PCM 格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid dec3 box contents, ignoring.",
+                    "target": "無效的 dec3 box 內容，予以忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't have two trun boxes for the same track in one fragment. Ignoring...",
+                    "target": "單一分段中的同一軌道不能有兩個 trun box。予以忽略..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Request will not be retried because a CORS error was suspected due to different origins. You can modify this behavior by providing your own function for the 'getRetryDelay' option.",
+                    "target": "由於來源不同，疑似發生 CORS 錯誤，因此不會重試請求。您可以透過為 'getRetryDelay' 選項提供自訂函式來修改此行為。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been started.",
+                    "target": "輸出已經開始。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been canceled.",
+                    "target": "輸出已取消。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been finalized.",
+                    "target": "輸出已完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Conversion already canceled.",
+                    "target": "轉換已取消。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to build Content-Range header:",
+                    "target": "無法建立 Content-Range 標頭："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot toggle non-note property",
+                    "target": "無法切換非筆記屬性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Note not found for boolean toggle",
+                    "target": "找不到用於布林值切換的筆記"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid column size config, reset to default",
+                    "target": "欄位大小設定無效，已重設為預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Media ID field not in order config, marking view as invalid",
+                    "target": "媒體 ID 欄位不在排序設定中，將檢視標記為無效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Media not found for metadata edit",
+                    "target": "找不到用於編輯詮釋資料的媒體"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Media metadata not found",
+                    "target": "找不到媒體詮釋資料"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No value to set for media source field",
+                    "target": "未提供媒體來源欄位的值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "tryOpenWithMediaHash: ignoring invalid paneType",
+                    "target": "tryOpenWithMediaHash：忽略無效的 paneType"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "buildOverriddenHash: failed to parse t param",
+                    "target": "buildOverriddenHash：無法解析 t 參數"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mx-open URI rejected: id not found",
+                    "target": "mx-open URI 已拒絕：找不到 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mx-open URI rejected: disallowed or invalid URL",
+                    "target": "mx-open URI 已拒絕：不允許或無效的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mx-open URI rejected: parser returned null",
+                    "target": "mx-open URI 已拒絕：解析器傳回 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mx-open: ignoring invalid paneType",
+                    "target": "mx-open：忽略無效的 paneType"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Pathname protocol rejected: invalid or disallowed URL",
+                    "target": "Pathname 協定已拒絕：無效或不允許的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Pathname protocol: parser returned null",
+                    "target": "Pathname 協定：解析器傳回 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not locate workspace protocol handler map; core action interception disabled",
+                    "target": "找不到工作區協定處理常式對應表；核心動作攔截已停用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to fetch task status: {error}",
+                    "target": "取得任務狀態失敗：{error}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Webview media service not found, skipping hash props application",
+                    "target": "找不到 Webview 媒體服務，跳過套用 Hash 屬性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to resolve media url in note",
+                    "target": "解析筆記中的媒體 URL 失敗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hook image create",
+                    "target": "掛鉤圖片建立失敗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "background-color: red; color: white;",
+                    "target": "background-color: red; color: white;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "background:#DC3545;color:white;padding:1px 4px;border-radius:2px;",
+                    "target": "background:#DC3545;color:white;padding:1px 4px;border-radius:2px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Cloudflare Workers detected. WebSocket clients are not supported in Cloudflare Workers.",
+                    "target": "偵測到 Cloudflare Workers。Cloudflare Workers 不支援 WebSocket 用戶端。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Edge runtime detected (Vercel Edge/Netlify Edge). WebSockets are not supported in edge functions.",
+                    "target": "偵測到 Edge 執行階段 (Vercel Edge/Netlify Edge)。Edge 函式不支援 WebSocket。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Unknown JavaScript runtime without WebSocket support.",
+                    "target": "未知的 JavaScript 執行階段，且不支援 WebSocket。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to import clipping",
+                    "target": "匯入剪輯失敗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "background-color: white; color: black;",
+                    "target": "background-color: white; color: black;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "background:#2CC773;color:white;padding:1px 4px;border-radius:2px;",
+                    "target": "background:#2CC773;color:white;padding:1px 4px;border-radius:2px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "WebM",
+                    "target": "WebM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GitHub",
+                    "target": "GitHub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "text-primary underline-offset-4 hover:underline",
+                    "target": "text-primary underline-offset-4 hover:underline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30",
+                    "target": "rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio must be in the format of <width>/<height>",
+                    "target": "寬高比的格式必須為 <width>/<height>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio x or y must be a number",
+                    "target": "寬高比的 x 或 y 必須是數字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio cannot be reduced to lowest terms",
+                    "target": "寬高比無法化為最簡分數"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "[vidstack] `hls.js` is not supported in this environment",
+                    "target": "[vidstack] 此環境不支援 `hls.js`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "[vidstack] `dash.js` is not supported in this environment",
+                    "target": "[vidstack] 此環境不支援 `dash.js`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to load resource.",
+                    "target": "載入資源失敗。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "JSON object requested, multiple (or no) rows returned",
+                    "target": "請求 JSON 物件，但傳回多個（或無）資料列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Discoverable credentials were required but no available authenticator supported it",
+                    "target": "需要可探索的憑證，但沒有可用的驗證器支援"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "User verification was required during automatic registration but it could not be performed",
+                    "target": "自動註冊期間需要進行使用者驗證，但無法執行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "User verification was required but no available authenticator supported it",
+                    "target": "需要進行使用者驗證，但沒有可用的驗證器支援"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The authenticator was previously registered",
+                    "target": "該驗證器先前已註冊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No entry in pubKeyCredParams was of type \"public-key\"",
+                    "target": "pubKeyCredParams 中沒有任何項目的類型為 \"public-key\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No available authenticator supported any of the specified pubKeyCredParams algorithms",
+                    "target": "沒有可用的驗證器支援任何指定的 pubKeyCredParams 演算法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "User ID was not between 1 and 64 characters",
+                    "target": "使用者 ID 的長度不在 1 到 64 個字元之間"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The authenticator was unable to process the specified options, or could not create a new credential",
+                    "target": "驗證器無法處理指定的選項，或無法建立新的憑證"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "a Non-Webauthn related error has occurred",
+                    "target": "發生與 WebAuthn 無關的錯誤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The authenticator was unable to process the specified options, or could not create a new assertion signature",
+                    "target": "驗證器無法處理指定的選項，或無法建立新的斷言簽章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collapsible",
+                    "target": "折疊式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Checkbox",
+                    "target": "核取方塊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FieldControl",
+                    "target": "欄位控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slider",
+                    "target": "滑桿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch",
+                    "target": "開關"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle",
+                    "target": "切換"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ToggleGroup",
+                    "target": "切換群組"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "MediabunnyTextHandler",
+                    "target": "MediabunnyTextHandler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "[album, creator].filter(value.isTruthy()).join(' - ')",
+                    "target": "[album, creator].filter(value.isTruthy()).join(' - ')"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Timestamped link copied to clipboard",
+                    "target": "已將含有時間戳記的連結複製到剪貼簿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Clipping imported to library",
+                    "target": "剪輯已匯入收藏庫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "background-color: orange; color: black;",
+                    "target": "background-color: orange; color: black;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "background:#FFA500;color:black;padding:1px 4px;border-radius:2px;",
+                    "target": "background:#FFA500;color:black;padding:1px 4px;border-radius:2px;"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`SEMVER`,...e):()=>{}})),v=s(((e,t)=>{var{MAX_SAFE_COMPONENT_LENGTH:n,MAX_SAFE_BUILD_LENGTH:r,MAX_LENGTH:i}=g(),a=_();e=t.exports={};var o=e.re=[],s=e.safeRe=[],c=e.src=[],l=e.safeSrc=[],u=e.t={},d=0,f=`[a-zA-Z0-9-]`,p=[[`\\\\s`,1],[`\\\\d`,i],[f,r]],m=e=>{for(let[t,n]of p)e=e.split(`${t}*`)",
+                    "target": "error(`SEMVER`,...e):()=>{}})),v=s(((e,t)=>{var{MAX_SAFE_COMPONENT_LENGTH:n,MAX_SAFE_BUILD_LENGTH:r,MAX_LENGTH:i}=g(),a=_();e=t.exports={};var o=e.re=[],s=e.safeRe=[],c=e.src=[],l=e.safeSrc=[],u=e.t={},d=0,f=`[a-zA-Z0-9-]`,p=[[`\\\\s`,1],[`\\\\d`,i],[f,r]],m=e=>{for(let[t,n]of p)e=e.split(`${t}*`)"
+                },
+                {
+                    "source": "error(\"`persistent` option is only available in Deno\")",
+                    "target": "error(\"`persistent` option is only available in Deno\")"
+                },
+                {
+                    "source": "error(`Error in notification handler:`,e)}}}}[Symbol.dispose](){for(let e of this.#n.values())e.timeoutId&&clearTimeout(e.timeoutId),e.reject(Error(`Client disposed`)",
+                    "target": "error(`Error in notification handler:`,e)}}}}[Symbol.dispose](){for(let e of this.#n.values())e.timeoutId&&clearTimeout(e.timeoutId),e.reject(Error(`Client disposed`)"
+                },
+                {
+                    "source": "log(`trace`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`trace`)",
+                    "target": "log(`trace`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`trace`)"
+                },
+                {
+                    "source": "log(`debug`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`debug`)",
+                    "target": "log(`debug`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`debug`)"
+                },
+                {
+                    "source": "log(`info`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`info`)",
+                    "target": "log(`info`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`info`)"
+                },
+                {
+                    "source": "log(`warning`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`warning`)",
+                    "target": "log(`warning`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`warning`)"
+                },
+                {
+                    "source": "log(`error`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`error`)",
+                    "target": "log(`error`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`error`)"
+                },
+                {
+                    "source": "log(`fatal`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`fatal`)",
+                    "target": "log(`fatal`,e,t)}):Promise.resolve();let t=n();if(t instanceof Promise)return this.isEnabledFor(`fatal`)"
+                },
+                {
+                    "source": "error(`Failed to get EmptyView`)",
+                    "target": "error(`Failed to get EmptyView`)"
+                },
+                {
+                    "source": "error(`Failed to convert path ${e} to URL: `,t),null}}async function tpt(){if(!window.confirm(`This will relaunch obsidian without saving, continue?`)",
+                    "target": "error(`Failed to convert path ${e} to URL: `,t),null}}async function tpt(){if(!window.confirm(`This will relaunch obsidian without saving, continue?`)"
+                },
+                {
+                    "source": "error(`Failed to open Google Drive browser`,e)}}async requestSelect(e){let t=await this.#s.googleDriveBrowserDialog.requestInput(e);if(t.type===`play`||t.type===`import`)",
+                    "target": "error(`Failed to open Google Drive browser`,e)}}async requestSelect(e){let t=await this.#s.googleDriveBrowserDialog.requestInput(e);if(t.type===`play`||t.type===`import`)"
+                },
+                {
+                    "source": "error(`Failed to open ${t}`,{message:e,error:n}),e)})}function UZ(e){return HZ(e,Je(),`data:text/html;base64,${CY(wht())}`)",
+                    "target": "error(`Failed to open ${t}`,{message:e,error:n}),e)})}function UZ(e){return HZ(e,Je(),`data:text/html;base64,${CY(wht())}`)"
+                },
+                {
+                    "source": "appendText(`…`)",
+                    "target": "appendText(`…`)"
+                },
+                {
+                    "source": "appendText(` · `)",
+                    "target": "appendText(` · `)"
+                },
+                {
+                    "source": "appendText(` — `)",
+                    "target": "appendText(` — `)"
+                },
+                {
+                    "source": "error(`Failed to check if web content is patched: ${e}`)",
+                    "target": "error(`Failed to check if web content is patched: ${e}`)"
+                },
+                {
+                    "source": "log(`requesting user gesture`,this.#t),await this.#n.client.requestUserGesture(this.#t)):(console.warn(`Frame id not available, skipping user gesture request`)",
+                    "target": "log(`requesting user gesture`,this.#t),await this.#n.client.requestUserGesture(this.#t)):(console.warn(`Frame id not available, skipping user gesture request`)"
+                },
+                {
+                    "source": "error(`Please add a BigInt polyfill.`)",
+                    "target": "error(`Please add a BigInt polyfill.`)"
+                },
+                {
+                    "source": "error(`Failed to save screenshot`,{error:t}),nDe({error:e}))})}async#i({clip:e,sourcePath:t}){try{var n=I();N$.info(`Setting screenshot as cover`,{clip:e,sourcePath:t});let r=this.adapter.media;if(!r)throw Error(`No media is opened`)",
+                    "target": "error(`Failed to save screenshot`,{error:t}),nDe({error:e}))})}async#i({clip:e,sourcePath:t}){try{var n=I();N$.info(`Setting screenshot as cover`,{clip:e,sourcePath:t});let r=this.adapter.media;if(!r)throw Error(`No media is opened`)"
+                },
+                {
+                    "source": "error(`Failed to copy screenshot`,{error:t}),bDe({error:e}))})}},Qgt=Yx(`^(?<drive>[A-Z]+):(?<path>.+)`)",
+                    "target": "error(`Failed to copy screenshot`,{error:t}),bDe({error:e}))})}},Qgt=Yx(`^(?<drive>[A-Z]+):(?<path>.+)`)"
+                },
+                {
+                    "source": "error(`downloadCaption failed`,{captionId:e,format:t,error:n}),n}}async function fvt(e,t,n){let r=await b1(e,`vtt`,t,n);if(r.format!==`vtt`)",
+                    "target": "error(`downloadCaption failed`,{captionId:e,format:t,error:n}),n}}async function fvt(e,t,n){let r=await b1(e,`vtt`,t,n);if(r.format!==`vtt`)"
+                },
+                {
+                    "source": "error(`forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported`)",
+                    "target": "error(`forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported`)"
+                },
+                {
+                    "source": "error(`Failed to seek webview media`,e)});return}if(a?.type===`player`)",
+                    "target": "error(`Failed to seek webview media`,e)});return}if(a?.type===`player`)"
+                },
+                {
+                    "source": "log(`Connection closed, reconnecting...`)",
+                    "target": "log(`Connection closed, reconnecting...`)"
+                },
+                {
+                    "source": "log(`channel`,`close ${this.topic} ${this._joinRef()}`)",
+                    "target": "log(`channel`,`close ${this.topic} ${this._joinRef()}`)"
+                },
+                {
+                    "source": "log(`channel`,`resubscribe to ${this.topic} due to change in presence callbacks on joined channel`)",
+                    "target": "log(`channel`,`resubscribe to ${this.topic} due to change in presence callbacks on joined channel`)"
+                },
+                {
+                    "source": "log(`channel`,`leave ${this.topic}`)",
+                    "target": "log(`channel`,`leave ${this.topic}`)"
+                },
+                {
+                    "source": "log(`error`,`error in heartbeat callback`,e)}this._wasManualDisconnect=!1,(e=this.conn)==null||e.close(1e3,`heartbeat timeout`)",
+                    "target": "log(`error`,`error in heartbeat callback`,e)}this._wasManualDisconnect=!1,(e=this.conn)==null||e.close(1e3,`heartbeat timeout`)"
+                },
+                {
+                    "source": "log(`error`,`error in heartbeat callback`,e)}this._setAuthSafely(`heartbeat`)",
+                    "target": "log(`error`,`error in heartbeat callback`,e)}this._setAuthSafely(`heartbeat`)"
+                },
+                {
+                    "source": "log(`transport`,`leaving duplicate topic \"${e}\"`)",
+                    "target": "log(`transport`,`leaving duplicate topic \"${e}\"`)"
+                },
+                {
+                    "source": "log(`error`,`Error closing connection`,e)}this.conn.onopen=null,this.conn.onerror=null,this.conn.onmessage=null,this.conn.onclose=null,this.conn=null}this._clearAllTimers(),this._terminateWorker(),this.channels.forEach(e=>e.teardown())}_onConnOpen(){this._setConnectionState(`connected`)",
+                    "target": "log(`error`,`Error closing connection`,e)}this.conn.onopen=null,this.conn.onerror=null,this.conn.onmessage=null,this.conn.onclose=null,this.conn=null}this._clearAllTimers(),this._terminateWorker(),this.channels.forEach(e=>e.teardown())}_onConnOpen(){this._setConnectionState(`connected`)"
+                },
+                {
+                    "source": "log(`transport`,`connected to ${this.endpointURL()}`)",
+                    "target": "log(`transport`,`connected to ${this.endpointURL()}`)"
+                },
+                {
+                    "source": "log(`error`,`error waiting for auth on connect`,e),this.flushSendBuffer()}),this._clearTimer(`reconnect`)",
+                    "target": "log(`error`,`error waiting for auth on connect`,e),this.flushSendBuffer()}),this._clearTimer(`reconnect`)"
+                },
+                {
+                    "source": "log(`worker`,`starting worker for from ${this.workerUrl}`)",
+                    "target": "log(`worker`,`starting worker for from ${this.workerUrl}`)"
+                },
+                {
+                    "source": "log(`worker`,`starting default worker`)",
+                    "target": "log(`worker`,`starting default worker`)"
+                },
+                {
+                    "source": "log(`worker`,`worker error`,e.message),this._terminateWorker()},this.workerRef.onmessage=e=>{e.data.event===`keepAlive`&&this.sendHeartbeat()},this.workerRef.postMessage({event:`start`,interval:this.heartbeatIntervalMs})}_terminateWorker(){this.workerRef&&=(this.log(`worker`,`terminating worker`)",
+                    "target": "log(`worker`,`worker error`,e.message),this._terminateWorker()},this.workerRef.onmessage=e=>{e.data.event===`keepAlive`&&this.sendHeartbeat()},this.workerRef.postMessage({event:`start`,interval:this.heartbeatIntervalMs})}_terminateWorker(){this.workerRef&&=(this.log(`worker`,`terminating worker`)"
+                },
+                {
+                    "source": "log(`@supabase/gotrue-js: Navigator LockManager state`,JSON.stringify(e,null,`  `)",
+                    "target": "log(`@supabase/gotrue-js: Navigator LockManager state`,JSON.stringify(e,null,`  `)"
+                },
+                {
+                    "source": "log(`@supabase/gotrue-js: navigatorLock: acquire timeout, recovering by stealing lock`,e),console.warn(`@supabase/gotrue-js: Lock \"${e}\" was not released within ${t}ms. This may indicate an orphaned lock from a component unmount (e.g., React Strict Mode). Forcefully acquiring the lock to recover.`)",
+                    "target": "log(`@supabase/gotrue-js: navigatorLock: acquire timeout, recovering by stealing lock`,e),console.warn(`@supabase/gotrue-js: Lock \"${e}\" was not released within ${t}ms. This may indicate an orphaned lock from a component unmount (e.g., React Strict Mode). Forcefully acquiring the lock to recover.`)"
+                },
+                {
+                    "source": "log(`@supabase/gotrue-js: navigatorLock: recovered (stolen)`,e,t.name);try{return await n()}finally{I4.debug&&console.log(`@supabase/gotrue-js: navigatorLock: released (stolen)`,e,t.name)}}else return console.warn(`@supabase/gotrue-js: Navigator LockManager returned null lock even with steal: true`)",
+                    "target": "log(`@supabase/gotrue-js: navigatorLock: recovered (stolen)`,e,t.name);try{return await n()}finally{I4.debug&&console.log(`@supabase/gotrue-js: navigatorLock: released (stolen)`,e,t.name)}}else return console.warn(`@supabase/gotrue-js: Navigator LockManager returned null lock even with steal: true`)"
+                },
+                {
+                    "source": "error(`Error getting user data:`,t),this._debug(e,`error getting user data, skipping SIGNED_IN notification`,t)}else await this._notifyAllSubscribers(`SIGNED_IN`,t)}catch(t){this._debug(e,`error`,t),console.error(t);return}finally{this._debug(e,`end`)",
+                    "target": "error(`Error getting user data:`,t),this._debug(e,`error getting user data, skipping SIGNED_IN notification`,t)}else await this._notifyAllSubscribers(`SIGNED_IN`,t)}catch(t){this._debug(e,`error`,t),console.error(t);return}finally{this._debug(e,`end`)"
+                },
+                {
+                    "source": "error(`Auto refresh tick failed with error. This is likely a transient error.`,e)}}finally{this._debug(`#_autoRefreshTokenTick()`,`end`)",
+                    "target": "error(`Auto refresh tick failed with error. This is likely a transient error.`,e)}}finally{this._debug(`#_autoRefreshTokenTick()`,`end`)"
+                },
+                {
+                    "source": "error(`Failed to download YouTube track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}function ISt(e){return cX(e)||amt(e)||omt(e)}function LSt(e,t){let n=e.captionList;if(!n)return{type:`none`};if(n.type===`youtube`)",
+                    "target": "error(`Failed to download YouTube track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}function ISt(e){return cX(e)||amt(e)||omt(e)}function LSt(e,t){let n=e.captionList;if(!n)return{type:`none`};if(n.type===`youtube`)"
+                },
+                {
+                    "source": "error(`Failed to download Coursera track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}async function VSt(e,t,n,r={}){let i=Z4.isEnabledFor(`debug`)",
+                    "target": "error(`Failed to download Coursera track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}async function VSt(e,t,n,r={}){let i=Z4.isEnabledFor(`debug`)"
+                },
+                {
+                    "source": "error(`Failed to download Bilibili track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}async function HSt(e,t,n,r={}){let i=t.captionList;if(!i)throw Error(`No caption list available`)",
+                    "target": "error(`Failed to download Bilibili track via webview`,{trackId:e.id,label:e.label,language:e.language,error:t}),t}}async function HSt(e,t,n,r={}){let i=t.captionList;if(!i)throw Error(`No caption list available`)"
+                },
+                {
+                    "source": "error(`Failed to open electron file picker`,e),t?.()}},...n})},WSt=class extends U0{app;trackInfoParser;constructor(e){super(e.app),this.app=e.app,this.trackInfoParser=e.textTrackParser,this.modalEl.addClass(`track-import`,`track-file-import`)",
+                    "target": "error(`Failed to open electron file picker`,e),t?.()}},...n})},WSt=class extends U0{app;trackInfoParser;constructor(e){super(e.app),this.app=e.app,this.trackInfoParser=e.textTrackParser,this.modalEl.addClass(`track-import`,`track-file-import`)"
+                },
+                {
+                    "source": "error(`Error connecting webview media service from {trigger}`,{url:t,trigger:n,urlKey:r,error:e})})}onHostChange(e,t=`unknown`)",
+                    "target": "error(`Error connecting webview media service from {trigger}`,{url:t,trigger:n,urlKey:r,error:e})})}onHostChange(e,t=`unknown`)"
+                },
+                {
+                    "source": "error(`Cannot connect: service is disposed`,{url:e}),Error(`Cannot connect: service is disposed`)",
+                    "target": "error(`Cannot connect: service is disposed`,{url:e}),Error(`Cannot connect: service is disposed`)"
+                },
+                {
+                    "source": "error(`downloadCaption failed`,{mediaId:gX(r),captionId:e,format:t.format,error:n}),n}}async togglePaused(){J.debug(`Toggling pause state`)",
+                    "target": "error(`downloadCaption failed`,{mediaId:gX(r),captionId:e,format:t.format,error:n}),n}}async togglePaused(){J.debug(`Toggling pause state`)"
+                },
+                {
+                    "source": "error(`onOpenFile error in openFile, fallback to default`,e),o()}}})),r.move()}catch(e){n.e=e}finally{n.d()}}var d3=Symbol(`MX_INTERNAL_OPENFILE`)",
+                    "target": "error(`onOpenFile error in openFile, fallback to default`,e),o()}}})),r.move()}catch(e){n.e=e}finally{n.d()}}var d3=Symbol(`MX_INTERNAL_OPENFILE`)"
+                },
+                {
+                    "source": "error(`failed to insert timestamp`,e)}finally{a()}}this.#t.clear()}patchRecordPlugin(){let e=this.app.internalPlugins.plugins[`audio-recorder`];if(!e)return console.info(`recorder not found, skip patching for recorder note`)",
+                    "target": "error(`failed to insert timestamp`,e)}finally{a()}}this.#t.clear()}patchRecordPlugin(){let e=this.app.internalPlugins.plugins[`audio-recorder`];if(!e)return console.info(`recorder not found, skip patching for recorder note`)"
+                },
+                {
+                    "source": "error(`unexpected folder`)",
+                    "target": "error(`unexpected folder`)"
+                },
+                {
+                    "source": "error(`Failed to batch fetch images from cache`,{error:e}),t}}async get(e){try{let t=(await this.#n()).transaction(this.storeName,`readwrite`)",
+                    "target": "error(`Failed to batch fetch images from cache`,{error:e}),t}}async get(e){try{let t=(await this.#n()).transaction(this.storeName,`readwrite`)"
+                },
+                {
+                    "source": "error(`Failed to clear image cache`,{error:e})}}async getTotalSize(){try{let e=(await this.#n()).transaction(this.storeName,`readonly`)",
+                    "target": "error(`Failed to clear image cache`,{error:e})}}async getTotalSize(){try{let e=(await this.#n()).transaction(this.storeName,`readonly`)"
+                },
+                {
+                    "source": "error(`Failed to get total cache size`,{error:e}),-1}}async resetDatabase(){try{O3.info(`Resetting image cache database`,{dbName:this.dbName}),this.#e&&(this.#e.close(),this.#e=null,this.#t=null,O3.debug(`Closed existing database connection before reset`)",
+                    "target": "error(`Failed to get total cache size`,{error:e}),-1}}async resetDatabase(){try{O3.info(`Resetting image cache database`,{dbName:this.dbName}),this.#e&&(this.#e.close(),this.#e=null,this.#t=null,O3.debug(`Closed existing database connection before reset`)"
+                },
+                {
+                    "source": "error(`Failed to reset image cache database`,{dbName:this.dbName,error:e})}}async#r(){try{let e=(await this.#n()).transaction(this.storeName,`readwrite`)",
+                    "target": "error(`Failed to reset image cache database`,{dbName:this.dbName,error:e})}}async#r(){try{let e=(await this.#n()).transaction(this.storeName,`readwrite`)"
+                },
+                {
+                    "source": "error(`open external link error`,t),new d.Notice(V_e({error:QJ(t)})),t}}},mTt=/^[v^~<>=]*?(\\d+)(?:\\.([x*]|\\d+)(?:\\.([x*]|\\d+)(?:\\.([x*]|\\d+))?(?:-([\\da-z\\-]+(?:\\.[\\da-z\\-]+)*))?(?:\\+[\\da-z\\-]+(?:\\.[\\da-z\\-]+)*)?)?)?$/i,hTt=e=>{if(typeof e!=`string`)",
+                    "target": "error(`open external link error`,t),new d.Notice(V_e({error:QJ(t)})),t}}},mTt=/^[v^~<>=]*?(\\d+)(?:\\.([x*]|\\d+)(?:\\.([x*]|\\d+)(?:\\.([x*]|\\d+))?(?:-([\\da-z\\-]+(?:\\.[\\da-z\\-]+)*))?(?:\\+[\\da-z\\-]+(?:\\.[\\da-z\\-]+)*)?)?)?$/i,hTt=e=>{if(typeof e!=`string`)"
+                },
+                {
+                    "source": "error(`Failed to load media history`,{error:e})}}recordMedia(e,t,n){let r=zTt(e,t);if(!r)return;let i;if(r.type===`url`)",
+                    "target": "error(`Failed to load media history`,{error:e})}}recordMedia(e,t,n){let r=zTt(e,t);if(!r)return;let i;if(r.type===`url`)"
+                },
+                {
+                    "source": "error(`Retrying failed fetch. Error:`,e),!Number.isFinite(n)||n<0)throw TypeError(`Retry delay must be a non-negative finite number.`)",
+                    "target": "error(`Retrying failed fetch. Error:`,e),!Number.isFinite(n)||n<0)throw TypeError(`Retry delay must be a non-negative finite number.`)"
+                },
+                {
+                    "source": "error(`Error during decodability check:`,e),!1}}async determinePacketType(e){if(!(e instanceof b8))throw TypeError(`packet must be an EncodedPacket.`)",
+                    "target": "error(`Error during decodability check:`,e),!1}}async determinePacketType(e){if(!(e instanceof b8))throw TypeError(`packet must be an EncodedPacket.`)"
+                },
+                {
+                    "source": "error(`Failed to get input`,{error:e}),null}}canGetInput(e){if(e.type===`url:hosted`)",
+                    "target": "error(`Failed to get input`,{error:e}),null}}canGetInput(e){if(e.type===`url:hosted`)"
+                },
+                {
+                    "source": "setTitle(`Google Drive`)",
+                    "target": "setTitle(`Google Drive`)"
+                },
+                {
+                    "source": "error(`Failed to copy blob to clipboard using DOM clipboard`,{error:t});return}b9.info(`Falling back to electron clipboard to copy image`,{error:t}),await INt(e)}}async function INt(e){try{if(e.type!==`image/png`&&e.type!==`image/jpeg`&&e.type!==`image/jpg`)",
+                    "target": "error(`Failed to copy blob to clipboard using DOM clipboard`,{error:t});return}b9.info(`Falling back to electron clipboard to copy image`,{error:t}),await INt(e)}}async function INt(e){try{if(e.type!==`image/png`&&e.type!==`image/jpeg`&&e.type!==`image/jpg`)"
+                },
+                {
+                    "source": "error(`Failed to copy image to clipboard using electron clipboard`,{error:e}),e}}var LNt=XK([`screenshot`,`clip-dialog`]),RNt=class extends U0{#e;#t;constructor(e,t,n){super(e),this.#e=t,this.#t=n,this.modalEl.addClass(`image-clip`)",
+                    "target": "error(`Failed to copy image to clipboard using electron clipboard`,{error:e}),e}}var LNt=XK([`screenshot`,`clip-dialog`]),RNt=class extends U0{#e;#t;constructor(e,t,n){super(e),this.#e=t,this.#t=n,this.modalEl.addClass(`image-clip`)"
+                },
+                {
+                    "source": "error(`Failed to clip screenshot: blob is null`)",
+                    "target": "error(`Failed to clip screenshot: blob is null`)"
+                },
+                {
+                    "source": "error(`Cannot save screenshot: no media is opened`)",
+                    "target": "error(`Cannot save screenshot: no media is opened`)"
+                },
+                {
+                    "source": "error(`Failed to write settings to disk`,{error:e}),n=null,e}finally{t=!1}}}var cPt={__VERSION__:2};async function lPt(e){try{w9.debug(`Reading settings from plugin data store`)",
+                    "target": "error(`Failed to write settings to disk`,{error:e}),n=null,e}finally{t=!1}}}var cPt={__VERSION__:2};async function lPt(e){try{w9.debug(`Reading settings from plugin data store`)"
+                },
+                {
+                    "source": "error(`Failed to load plugin data, falling back to defaults`,{error:e}),{value:cPt,migrated:!1}}}L();var T9=XK(`settings`)",
+                    "target": "error(`Failed to load plugin data, falling back to defaults`,{error:e}),{value:cPt,migrated:!1}}}L();var T9=XK(`settings`)"
+                },
+                {
+                    "source": "error(`Failed to load settings on init`,{error:e})}),this.#e=new DisposableStack,this.#t=this.#e.use(new zg)}[Symbol.dispose](){T9.debug(`Disposing settings service`)",
+                    "target": "error(`Failed to load settings on init`,{error:e})}),this.#e=new DisposableStack,this.#t=this.#e.use(new zg)}[Symbol.dispose](){T9.debug(`Disposing settings service`)"
+                },
+                {
+                    "source": "error(`Cannot open hosted media`,{isBrowser:fX(e.info),webviewerPatchStatus:this.webviewerPatch.patchStatus,isEmbed:dX(e.info)}),new zPt(`Cannot open hosted media`)",
+                    "target": "error(`Cannot open hosted media`,{isBrowser:fX(e.info),webviewerPatchStatus:this.webviewerPatch.patchStatus,isEmbed:dX(e.info)}),new zPt(`Cannot open hosted media`)"
+                },
+                {
+                    "source": "error(`Failed to import password manager data`,e)}}async exportCredentials(){if(!window.confirm(js()))return;let e=await this.#n.getAll();E0(new Blob([JSON.stringify(e)],{type:`application/json`}),`password-manager.json`)",
+                    "target": "error(`Failed to import password manager data`,e)}}async exportCredentials(){if(!window.confirm(js()))return;let e=await this.#n.getAll();E0(new Blob([JSON.stringify(e)],{type:`application/json`}),`password-manager.json`)"
+                },
+                {
+                    "source": "error(`Failed to open log folder`,e),new d.Notice(bse())}}),i(),n.defer(r.sub(c,i))})}).addSetting(t=>{t.setName(uf()).setDesc(pf()).addButton(t=>{let i=()=>{r.get(c)?(t.setDisabled(!1),t.setTooltip(``)",
+                    "target": "error(`Failed to open log folder`,e),new d.Notice(bse())}}),i(),n.defer(r.sub(c,i))})}).addSetting(t=>{t.setName(uf()).setDesc(pf()).addButton(t=>{let i=()=>{r.get(c)?(t.setDisabled(!1),t.setTooltip(``)"
+                },
+                {
+                    "source": "appendText(`, `)",
+                    "target": "appendText(`, `)"
+                },
+                {
+                    "source": "error(`Error patching webviewer`,{error:e})})}[Symbol.dispose](){this.#t[Symbol.dispose](),this.#e?.[Symbol.dispose]()}#n=`idle`;get canOpenInWebViewer(){return this.patchStatus.supported&&this.patchStatus.webviewerEnabled}get patchStatus(){let e=xTt(PJ().app.getVersion(),`1.11.4`,`>=`)",
+                    "target": "error(`Error patching webviewer`,{error:e})})}[Symbol.dispose](){this.#t[Symbol.dispose](),this.#e?.[Symbol.dispose]()}#n=`idle`;get canOpenInWebViewer(){return this.patchStatus.supported&&this.patchStatus.webviewerEnabled}get patchStatus(){let e=xTt(PJ().app.getVersion(),`1.11.4`,`>=`)"
+                },
+                {
+                    "source": "error(`Error disposing webview media service`,{error:e})}),delete e[bX],Y9.info(`Webview media service deleted`)",
+                    "target": "error(`Error disposing webview media service`,{error:e})}),delete e[bX],Y9.info(`Webview media service deleted`)"
+                },
+                {
+                    "source": "error(`Error applying hash props to webview media service`,{error:e,hash:r})}):Y9.warn(`Webview media service not found, skipping hash props application`)",
+                    "target": "error(`Error applying hash props to webview media service`,{error:e,hash:r})}):Y9.warn(`Webview media service not found, skipping hash props application`)"
+                },
+                {
+                    "source": "error(`Failed to get web contents, skipping click-away fix`)",
+                    "target": "error(`Failed to get web contents, skipping click-away fix`)"
+                },
+                {
+                    "source": "settings: \"liga\"",
+                    "target": "settings: \"liga\""
+                },
+                {
+                    "source": "name: `+n)}return r&&(n=`",
+                    "target": "name: `+n)}return r&&(n=`"
+                },
+                {
+                    "source": "link:`text-primary underline-offset-4 hover:underline`",
+                    "target": "link:`text-primary underline-offset-4 hover:underline`"
+                },
+                {
+                    "source": "text:` `",
+                    "target": "text:` `"
+                },
+                {
+                    "source": "text:`${n.text} `",
+                    "target": "text:`${n.text} `"
+                },
+                {
+                    "source": "link:`rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30`",
+                    "target": "link:`rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30`"
+                }
+            ]
+        }
+    }
+}

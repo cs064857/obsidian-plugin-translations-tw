@@ -1,0 +1,1056 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-icon-folder",
+        "version": "1.0.0",
+        "title": "Iconize",
+        "description": "Iconize Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "2.14.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<p>Drop to add icon.</p>",
+                    "target": "<p>拖曳以新增圖示。</p>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Recently used Icons:",
+                    "target": "最近使用的圖示："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "All Icons:",
+                    "target": "所有圖示："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Select to download icon pack",
+                    "target": "選擇以下載圖示包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Native",
+                    "target": "原生"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Skipping internal plugin registration because it is not enabled.",
+                    "target": "由於未啟用，已跳過內部外掛註冊。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "`leaf` in outline is undefined",
+                    "target": "大綱中的 `leaf` 未定義"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "`leaf` length in outline is 0",
+                    "target": "大綱中的 `leaf` 長度為 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading obsidian-icon-folder",
+                    "target": "正在卸載 obsidian-icon-folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add icon pack",
+                    "target": "新增圖示包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose icon",
+                    "target": "選擇圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Change icon",
+                    "target": "變更圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Default",
+                    "target": "預設"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save Changes",
+                    "target": "儲存變更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "儲存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Browse icon packs",
+                    "target": "瀏覽圖示包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Refresh",
+                    "target": "重新整理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset",
+                    "target": "重設"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a custom icon pack.",
+                    "target": "新增自訂圖示包。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will add the icon based on the defined rule (as a plain string or in regex format).",
+                    "target": "將根據定義的規則（以純文字字串或正規表示式格式）新增圖示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the margin of the icons.",
+                    "target": "變更圖示的邊距。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the color of the displayed icons.",
+                    "target": "變更顯示圖示的顏色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the font size of the displayed icons.",
+                    "target": "變更顯示圖示的字型大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the default icon packs folder path.",
+                    "target": "變更預設圖示包的資料夾路徑。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a predefined icon pack that is officially supported.",
+                    "target": "新增官方支援的預定義圖示包。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the limit for the recently used icons displayed in the icon selection modal.",
+                    "target": "變更圖示選擇視窗中顯示的最近使用圖示數量限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles the visibility of an icon for a file in the tab bar.",
+                    "target": "切換分頁列中檔案圖示的顯示狀態。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles the visibility of an icon above the title of a file.",
+                    "target": "切換檔案標題上方圖示的顯示狀態。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles whether to set the icon based on the frontmatter property `icon`.",
+                    "target": "切換是否根據 Frontmatter 屬性 `icon` 設定圖示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the name of the frontmatter field which contains the icon.",
+                    "target": "設定包含圖示的 Frontmatter 欄位名稱。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the name of the frontmatter field which contains the icon color.",
+                    "target": "設定包含圖示顏色的 frontmatter 欄位名稱。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the icon and color for each note in the vault based on the frontmatter properties. WARNING: This will change any manually set icons to the one defined in the frontmatter. IF A NOTE HAS NO FRONTMATTER, THE CURRENT ICON WILL BE REMOVED. Please restart Obsidian after this completes to see the changes.",
+                    "target": "根據 frontmatter 屬性設定保險箱中每篇筆記的圖示與顏色。警告：這將會把所有手動設定的圖示變更為 frontmatter 中定義的圖示。若筆記沒有 FRONTMATTER，目前的圖示將會被移除。完成後請重啟 Obsidian 以套用變更。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles whether you are able to add and see icons in your notes and editor (e.g., ability to have :LiSofa: as an icon in your notes).",
+                    "target": "切換是否能在筆記與編輯器中新增及查看圖示（例如：在筆記中使用 :LiSofa: 作為圖示）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles whether you are able to see icons in the links to other notes",
+                    "target": "切換是否能在指向其他筆記的連結中顯示圖示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the icon identifier used in notes.",
+                    "target": "變更在筆記中使用的圖示識別碼。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle debug mode to see more detailed logs in the console. Do not touch this unless you know what you are doing.",
+                    "target": "切換除錯模式以在主控台中查看更詳細的記錄。除非您清楚自己在做什麼，否則請勿更動此設定。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles whether to try to add icons to the bookmark and outline internal plugins.",
+                    "target": "切換是否嘗試為書籤和大綱核心外掛程式新增圖示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add custom icon pack",
+                    "target": "新增自訂圖示包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add icon rule",
+                    "target": "新增圖示規則"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Emoji style",
+                    "target": "表情符號樣式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extra margin (in pixels)",
+                    "target": "額外外邊距（像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon color",
+                    "target": "圖示顏色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon font size (in pixels)",
+                    "target": "圖示字型大小（像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon packs folder path",
+                    "target": "圖示包資料夾路徑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icons background check",
+                    "target": "圖示背景檢測"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add predefined icon pack",
+                    "target": "新增預設圖示包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recently used icons limit",
+                    "target": "最近使用的圖示數量上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle icon in tabs",
+                    "target": "切換分頁中的圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle icon in title",
+                    "target": "切換標題中的圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use icon in frontmatter",
+                    "target": "在 Frontmatter 中使用圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter icon field name",
+                    "target": "Frontmatter 圖示欄位名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter icon color field name",
+                    "target": "Frontmatter 圖示顏色欄位名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh icons from frontmatter",
+                    "target": "從 Frontmatter 重新整理圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle icons while editing notes",
+                    "target": "編輯筆記時切換圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle icons in links",
+                    "target": "切換連結中的圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon identifier",
+                    "target": "圖示識別碼"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle Debug Mode",
+                    "target": "切換偵錯模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "EXPERIMENTAL: Use internal plugins",
+                    "target": "實驗性：使用內部外掛"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your icon pack name",
+                    "target": "您的圖示包名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "regex or simple string",
+                    "target": "正規表示式或簡單字串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit custom rule",
+                    "target": "編輯自訂規則"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Change color",
+                    "target": "變更顏色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Change icon",
+                    "target": "變更圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Change color of icon",
+                    "target": "變更圖示顏色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add an icon",
+                    "target": "新增圖示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Prioritize the custom rule",
+                    "target": "提高自訂規則的優先順序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Deprioritize the custom rule",
+                    "target": "降低自訂規則的優先順序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit the custom rule",
+                    "target": "編輯自訂規則"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Set color to the default one",
+                    "target": "將顏色設為預設"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢復預設值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please delete your old icon packs and redownload your icon packs to use the new syncing mechanism.",
+                    "target": "請刪除舊的圖示包並重新下載，以使用新的同步機制。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Icon pack already exists.",
+                    "target": "圖示包已存在。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Icon pack successfully created.",
+                    "target": "已成功建立圖示包。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Changing icon packs...",
+                    "target": "正在變更圖示包..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Done. This change requires a restart of Obsidian",
+                    "target": "完成。此變更需要重新啟動 Obsidian"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Icons successfully added.",
+                    "target": "已成功新增圖示。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Icon pack successfully deleted.",
+                    "target": "已成功刪除圖示包。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Icon rule added.",
+                    "target": "已新增圖示規則。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom rule updated.",
+                    "target": "已更新自訂規則。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom rule deleted.",
+                    "target": "已刪除自訂規則。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saving in progress...",
+                    "target": "正在儲存..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You need to reload Obsidian for this to take effect.",
+                    "target": "您需要重新載入 Obsidian 才能使此變更生效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Color of icon changed.",
+                    "target": "圖示顏色已變更。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "LOG:",
+                    "target": "日誌："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "INFO:",
+                    "target": "資訊："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "WARN:",
+                    "target": "警告："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ERROR:",
+                    "target": "錯誤："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set icon for file",
+                    "target": "設定檔案圖示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Include folders and files that are part of the path.",
+                    "target": "包含屬於該路徑一部分的資料夾與檔案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Where the custom rule gets applied to.",
+                    "target": "自訂規則所套用的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General",
+                    "target": "一般"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Visibility of icons",
+                    "target": "圖示顯示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Icon customization for files/folders",
+                    "target": "檔案/資料夾圖示自訂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom icon rules",
+                    "target": "自訂圖示規則"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Icon packs",
+                    "target": "圖示套件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a color for this icon",
+                    "target": "為此圖示選擇顏色"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(`Directory with name ${iconPack.name} already exists.`)",
+                    "target": "Notice(`Directory with name ${iconPack.name} already exists.`)"
+                },
+                {
+                    "source": "Notice(`Moving ${iconPack.name}...`)",
+                    "target": "Notice(`Moving ${iconPack.name}...`)"
+                },
+                {
+                    "source": "Notice(`...moved ${iconPack.name}`)",
+                    "target": "Notice(`...moved ${iconPack.name}`)"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Renamed ${normalizedFilename} to ${newFilename} to avoid duplication.`, 8000);\n        }\n        else {\n            logger.warn(`Could not create icons with duplicated file names (file name: ${normalizedFilename})`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Renamed ${normalizedFilename} to ${newFilename} to avoid duplication.`, 8000);\n        }\n        else {\n            logger.warn(`Could not create icons with duplicated file names (file name: ${normalizedFilename})`)"
+                },
+                {
+                    "source": "error(`Icon file with name ${iconNameWithPrefix} could not be found`)",
+                    "target": "error(`Icon file with name ${iconNameWithPrefix} could not be found`)"
+                },
+                {
+                    "source": "error(`Icon SVG with name ${iconNameWithPrefix} could not be found`)",
+                    "target": "error(`Icon SVG with name ${iconNameWithPrefix} could not be found`)"
+                },
+                {
+                    "source": "setName('Add custom icon pack')",
+                    "target": "setName('Add custom icon pack')"
+                },
+                {
+                    "source": "setDesc('Add a custom icon pack.')",
+                    "target": "setDesc('Add a custom icon pack.')"
+                },
+                {
+                    "source": "setPlaceholder('Your icon pack name')",
+                    "target": "setPlaceholder('Your icon pack name')"
+                },
+                {
+                    "source": "setButtonText('Add icon pack')",
+                    "target": "setButtonText('Add icon pack')"
+                },
+                {
+                    "source": "Notice('Icon pack already exists.')",
+                    "target": "Notice('Icon pack already exists.')"
+                },
+                {
+                    "source": "Notice('Icon pack successfully created.')",
+                    "target": "Notice('Icon pack successfully created.')"
+                },
+                {
+                    "source": "setName(`${iconPack.name} (${iconPack.prefix})`)",
+                    "target": "setName(`${iconPack.name} (${iconPack.prefix})`)"
+                },
+                {
+                    "source": "setDesc(`Total icons: ${iconPack.icons.length}${isLucideIconPack ? ` ${additionalLucideDescription}` : ''}`)",
+                    "target": "setDesc(`Total icons: ${iconPack.icons.length}${isLucideIconPack ? ` ${additionalLucideDescription}` : ''}`)"
+                },
+                {
+                    "source": "setTooltip('Try to fix icon pack')",
+                    "target": "setTooltip('Try to fix icon pack')"
+                },
+                {
+                    "source": "Notice('Try to fix icon pack...')",
+                    "target": "Notice('Try to fix icon pack...')"
+                },
+                {
+                    "source": "Notice('...tried to fix icon pack')",
+                    "target": "Notice('...tried to fix icon pack')"
+                },
+                {
+                    "source": "Notice('Changing icon packs...')",
+                    "target": "Notice('Changing icon packs...')"
+                },
+                {
+                    "source": "Notice('Done. This change requires a restart of Obsidian')",
+                    "target": "Notice('Done. This change requires a restart of Obsidian')"
+                },
+                {
+                    "source": "setTooltip('Add an icon')",
+                    "target": "setTooltip('Add an icon')"
+                },
+                {
+                    "source": "setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`)",
+                    "target": "setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`)"
+                },
+                {
+                    "source": "Notice('Icons successfully added.')",
+                    "target": "Notice('Icons successfully added.')"
+                },
+                {
+                    "source": "Notice('Icon pack successfully deleted.')",
+                    "target": "Notice('Icon pack successfully deleted.')"
+                },
+                {
+                    "source": "Notice(`File ${file.name} is not a SVG file.`)",
+                    "target": "Notice(`File ${file.name} is not a SVG file.`)"
+                },
+                {
+                    "source": "setName('Add icon rule')",
+                    "target": "setName('Add icon rule')"
+                },
+                {
+                    "source": "setDesc('Will add the icon based on the defined rule (as a plain string or in regex format).')",
+                    "target": "setDesc('Will add the icon based on the defined rule (as a plain string or in regex format).')"
+                },
+                {
+                    "source": "setPlaceholder('regex or simple string')",
+                    "target": "setPlaceholder('regex or simple string')"
+                },
+                {
+                    "source": "setButtonText('Choose icon')",
+                    "target": "setButtonText('Choose icon')"
+                },
+                {
+                    "source": "Notice('Icon rule added.')",
+                    "target": "Notice('Icon rule added.')"
+                },
+                {
+                    "source": "setDesc(`Icon: ${rule.icon}`)",
+                    "target": "setDesc(`Icon: ${rule.icon}`)"
+                },
+                {
+                    "source": "setTooltip('Prioritize the custom rule')",
+                    "target": "setTooltip('Prioritize the custom rule')"
+                },
+                {
+                    "source": "setTooltip('Deprioritize the custom rule')",
+                    "target": "setTooltip('Deprioritize the custom rule')"
+                },
+                {
+                    "source": "setTooltip('Edit the custom rule')",
+                    "target": "setTooltip('Edit the custom rule')"
+                },
+                {
+                    "source": "setText('Edit custom rule')",
+                    "target": "setText('Edit custom rule')"
+                },
+                {
+                    "source": "setTooltip(`Icon applicable to: ${isFor}`)",
+                    "target": "setTooltip(`Icon applicable to: ${isFor}`)"
+                },
+                {
+                    "source": "setButtonText('Change icon')",
+                    "target": "setButtonText('Change icon')"
+                },
+                {
+                    "source": "setTooltip('Set color to the default one')",
+                    "target": "setTooltip('Set color to the default one')"
+                },
+                {
+                    "source": "setButtonText('Save Changes')",
+                    "target": "setButtonText('Save Changes')"
+                },
+                {
+                    "source": "Notice('Custom rule updated.')",
+                    "target": "Notice('Custom rule updated.')"
+                },
+                {
+                    "source": "Notice('Custom rule deleted.')",
+                    "target": "Notice('Custom rule deleted.')"
+                },
+                {
+                    "source": "setName('Emoji style')",
+                    "target": "setName('Emoji style')"
+                },
+                {
+                    "source": "setName('Extra margin (in pixels)')",
+                    "target": "setName('Extra margin (in pixels)')"
+                },
+                {
+                    "source": "setDesc('Change the margin of the icons.')",
+                    "target": "setDesc('Change the margin of the icons.')"
+                },
+                {
+                    "source": "setTooltip('Restore default')",
+                    "target": "setTooltip('Restore default')"
+                },
+                {
+                    "source": "setName('Icon color')",
+                    "target": "setName('Icon color')"
+                },
+                {
+                    "source": "setDesc('Change the color of the displayed icons.')",
+                    "target": "setDesc('Change the color of the displayed icons.')"
+                },
+                {
+                    "source": "setName('Icon font size (in pixels)')",
+                    "target": "setName('Icon font size (in pixels)')"
+                },
+                {
+                    "source": "setDesc('Change the font size of the displayed icons.')",
+                    "target": "setDesc('Change the font size of the displayed icons.')"
+                },
+                {
+                    "source": "setName('Icon packs folder path')",
+                    "target": "setName('Icon packs folder path')"
+                },
+                {
+                    "source": "setDesc('Change the default icon packs folder path.')",
+                    "target": "setDesc('Change the default icon packs folder path.')"
+                },
+                {
+                    "source": "Notice('Saving in progress...')",
+                    "target": "Notice('Saving in progress...')"
+                },
+                {
+                    "source": "Notice('...saved successfully')",
+                    "target": "Notice('...saved successfully')"
+                },
+                {
+                    "source": "setName('Icons background check')",
+                    "target": "setName('Icons background check')"
+                },
+                {
+                    "source": "setName('Add predefined icon pack')",
+                    "target": "setName('Add predefined icon pack')"
+                },
+                {
+                    "source": "setDesc('Add a predefined icon pack that is officially supported.')",
+                    "target": "setDesc('Add a predefined icon pack that is officially supported.')"
+                },
+                {
+                    "source": "setButtonText('Browse icon packs')",
+                    "target": "setButtonText('Browse icon packs')"
+                },
+                {
+                    "source": "setName('Recently used icons limit')",
+                    "target": "setName('Recently used icons limit')"
+                },
+                {
+                    "source": "setDesc('Change the limit for the recently used icons displayed in the icon selection modal.')",
+                    "target": "setDesc('Change the limit for the recently used icons displayed in the icon selection modal.')"
+                },
+                {
+                    "source": "setName('Toggle icon in tabs')",
+                    "target": "setName('Toggle icon in tabs')"
+                },
+                {
+                    "source": "setDesc('Toggles the visibility of an icon for a file in the tab bar.')",
+                    "target": "setDesc('Toggles the visibility of an icon for a file in the tab bar.')"
+                },
+                {
+                    "source": "setName('Toggle icon in title')",
+                    "target": "setName('Toggle icon in title')"
+                },
+                {
+                    "source": "setDesc('Toggles the visibility of an icon above the title of a file.')",
+                    "target": "setDesc('Toggles the visibility of an icon above the title of a file.')"
+                },
+                {
+                    "source": "setName('Use icon in frontmatter')",
+                    "target": "setName('Use icon in frontmatter')"
+                },
+                {
+                    "source": "setDesc('Toggles whether to set the icon based on the frontmatter property `icon`.')",
+                    "target": "setDesc('Toggles whether to set the icon based on the frontmatter property `icon`.')"
+                },
+                {
+                    "source": "setName('Frontmatter icon field name')",
+                    "target": "setName('Frontmatter icon field name')"
+                },
+                {
+                    "source": "setDesc('Sets the name of the frontmatter field which contains the icon.')",
+                    "target": "setDesc('Sets the name of the frontmatter field which contains the icon.')"
+                },
+                {
+                    "source": "setName('Frontmatter icon color field name')",
+                    "target": "setName('Frontmatter icon color field name')"
+                },
+                {
+                    "source": "setDesc('Sets the name of the frontmatter field which contains the icon color.')",
+                    "target": "setDesc('Sets the name of the frontmatter field which contains the icon color.')"
+                },
+                {
+                    "source": "setName('Refresh icons from frontmatter')",
+                    "target": "setName('Refresh icons from frontmatter')"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Please enable \"Use icon in frontmatter\".`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Please enable \"Use icon in frontmatter\".`)"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Refreshing icons from frontmatter, please wait...`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Refreshing icons from frontmatter, please wait...`)"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Refreshed icons from frontmatter. Please restart Obsidian to see the changes.`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Refreshed icons from frontmatter. Please restart Obsidian to see the changes.`)"
+                },
+                {
+                    "source": "setName('Toggle icons while editing notes')",
+                    "target": "setName('Toggle icons while editing notes')"
+                },
+                {
+                    "source": "setDesc('Toggles whether you are able to add and see icons in your notes and editor (e.g., ability to have :LiSofa: as an icon in your notes).')",
+                    "target": "setDesc('Toggles whether you are able to add and see icons in your notes and editor (e.g., ability to have :LiSofa: as an icon in your notes).')"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`)"
+                },
+                {
+                    "source": "setName('Toggle icons in links')",
+                    "target": "setName('Toggle icons in links')"
+                },
+                {
+                    "source": "setDesc('Toggles whether you are able to see icons in the links to other notes')",
+                    "target": "setDesc('Toggles whether you are able to see icons in the links to other notes')"
+                },
+                {
+                    "source": "setName('Icon identifier')",
+                    "target": "setName('Icon identifier')"
+                },
+                {
+                    "source": "setDesc('Change the icon identifier used in notes.')",
+                    "target": "setDesc('Change the icon identifier used in notes.')"
+                },
+                {
+                    "source": "setName('Toggle Debug Mode')",
+                    "target": "setName('Toggle Debug Mode')"
+                },
+                {
+                    "source": "setDesc('Toggle debug mode to see more detailed logs in the console. Do not touch this unless you know what you are doing.')",
+                    "target": "setDesc('Toggle debug mode to see more detailed logs in the console. Do not touch this unless you know what you are doing.')"
+                },
+                {
+                    "source": "setName('EXPERIMENTAL: Use internal plugins')",
+                    "target": "setName('EXPERIMENTAL: Use internal plugins')"
+                },
+                {
+                    "source": "setDesc('Toggles whether to try to add icons to the bookmark and outline internal plugins.')",
+                    "target": "setDesc('Toggles whether to try to add icons to the bookmark and outline internal plugins.')"
+                },
+                {
+                    "source": "setText('Change color')",
+                    "target": "setText('Change color')"
+                },
+                {
+                    "source": "Notice('Color of icon changed.')",
+                    "target": "Notice('Color of icon changed.')"
+                },
+                {
+                    "source": "log(`loading ${config.PLUGIN_NAME}`)",
+                    "target": "log(`loading ${config.PLUGIN_NAME}`)"
+                },
+                {
+                    "source": "setTitle('Change icon')",
+                    "target": "setTitle('Change icon')"
+                },
+                {
+                    "source": "setTitle('Change color of icon')",
+                    "target": "setTitle('Change color of icon')"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \\`icon\\` has to be of type \\`text\\`.`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \\`icon\\` has to be of type \\`text\\`.`)"
+                },
+                {
+                    "source": "Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \\`iconColor\\` has to be of type \\`text\\`.`)",
+                    "target": "Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \\`iconColor\\` has to be of type \\`text\\`.`)"
+                },
+                {
+                    "source": "log('unloading obsidian-icon-folder')",
+                    "target": "log('unloading obsidian-icon-folder')"
+                },
+                {
+                    "source": "name = \"SuppressedError\"",
+                    "target": "name = \"SuppressedError\""
+                },
+                {
+                    "source": "name: 'font-awesome-brands'",
+                    "target": "name: 'font-awesome-brands'"
+                },
+                {
+                    "source": "name: 'font-awesome-regular'",
+                    "target": "name: 'font-awesome-regular'"
+                },
+                {
+                    "source": "name: 'font-awesome-solid'",
+                    "target": "name: 'font-awesome-solid'"
+                },
+                {
+                    "source": "name: 'icon-brew'",
+                    "target": "name: 'icon-brew'"
+                },
+                {
+                    "source": "name: 'simple-icons'",
+                    "target": "name: 'simple-icons'"
+                },
+                {
+                    "source": "name: 'lucide-icons'",
+                    "target": "name: 'lucide-icons'"
+                },
+                {
+                    "source": "name: 'tabler-icons'",
+                    "target": "name: 'tabler-icons'"
+                },
+                {
+                    "source": "name: 'boxicons'",
+                    "target": "name: 'boxicons'"
+                },
+                {
+                    "source": "name: 'rpg-awesome'",
+                    "target": "name: 'rpg-awesome'"
+                },
+                {
+                    "source": "name: 'coolicons'",
+                    "target": "name: 'coolicons'"
+                },
+                {
+                    "source": "name: 'feather-icons'",
+                    "target": "name: 'feather-icons'"
+                },
+                {
+                    "source": "name: 'octicons'",
+                    "target": "name: 'octicons'"
+                },
+                {
+                    "source": "innerText = 'Recently used Icons:'",
+                    "target": "innerText = 'Recently used Icons:'"
+                },
+                {
+                    "source": "innerText = 'All Icons:'",
+                    "target": "innerText = 'All Icons:'"
+                },
+                {
+                    "source": "text: 'Include folders and files that are part of the path.'",
+                    "target": "text: 'Include folders and files that are part of the path.'"
+                },
+                {
+                    "source": "text: 'Where the custom rule gets applied to.'",
+                    "target": "text: 'Where the custom rule gets applied to.'"
+                },
+                {
+                    "source": "text: 'General'",
+                    "target": "text: 'General'"
+                },
+                {
+                    "source": "text: 'Visibility of icons'",
+                    "target": "text: 'Visibility of icons'"
+                },
+                {
+                    "source": "text: 'Icon customization for files/folders'",
+                    "target": "text: 'Icon customization for files/folders'"
+                },
+                {
+                    "source": "text: 'Custom icon rules'",
+                    "target": "text: 'Custom icon rules'"
+                },
+                {
+                    "source": "text: 'Icon packs'",
+                    "target": "text: 'Icon packs'"
+                },
+                {
+                    "source": "text: 'Select a color for this icon'",
+                    "target": "text: 'Select a color for this icon'"
+                },
+                {
+                    "source": "name: 'Set icon for file'",
+                    "target": "name: 'Set icon for file'"
+                }
+            ]
+        }
+    }
+}
